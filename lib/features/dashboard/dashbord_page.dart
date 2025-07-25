@@ -143,8 +143,7 @@ class _TableView extends StatelessWidget {
           }
           return TableViewCell(
             child: ColoredBox(
-              color:
-                  isStickyHeader ? Colors.transparent : colorScheme.background,
+              color: isStickyHeader ? Colors.transparent : colorScheme.surface,
               child: Center(
                 child: FittedBox(
                   child: Padding(
